@@ -1,0 +1,30 @@
+
+	$font-size-titulos: 180px;
+	$line-height-titulos: 200%;
+
+
+$marginTop: 0.2em;
+	@for $i from 1 to 6 {
+		.mtop-#{$i}{
+		margin-top: $marginTop * $i;
+		}	
+}
+
+$font-family: 'Roboto Condensed', sans-serif;
+$weight: ("thin": 300, "regular": 400, "bold": 700, "extraBold": 1400);
+$sizes: ("xsm":10px, "sm":30px, "md":50px, "lg": 100px, "xlg":200px);
+
+@each $k, $v in $weight {
+	.weight-#{$k}{
+		font-family: $font-family;
+		font-weight: $v;
+	}
+
+}
+
+@each $k, $v in $sizes {
+	.text-#{$k}{
+		font-family: $font-family;
+		font-size: $v;
+	}
+}

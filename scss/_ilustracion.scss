@@ -1,0 +1,25 @@
+
+
+/*ilustracion html*/
+
+
+#ilustracionHtml div {display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;}
+
+#ilustracionHtml div img {max-width: 25%;
+	padding-left:1rem;
+	transition: all 170ms;
+
+		&:hover {opacity: 0.7}
+	}
+
+div.gatos {margin-top: 5em;}
+
+div.margen {margin-top: 1.5em;}
+
+div.proto {margin-top: 1.5em;}
+
+div.proto img {margin-bottom: 5em;}
+

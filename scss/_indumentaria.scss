@@ -1,0 +1,21 @@
+
+/*indumentaria html*/
+
+
+#indumentariaHtml div {display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;}
+
+#indumentariaHtml div img {max-width: 25%;
+	padding-left:1rem;}
+
+div.tesisUno {margin-top: 5em;}
+
+div.tesisDos {margin-top: 1em}
+
+div.tesisTres {margin-top: 3em;}
+
+div.tesisCuatro {margin-top:1em;}
+
+div.tesisCuatro img {margin-bottom:5em;}

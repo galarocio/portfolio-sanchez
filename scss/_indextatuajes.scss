@@ -1,0 +1,45 @@
+/*index tatuajes*/
+
+.seccionDos {grid-area: tatu;
+	@include seccionesindex
+
+		img {@include imagenesindex
+
+			&:hover {opacity: 0.7}
+			}
+			}
+
+.seccionDos__fotos {width: 65%;
+	order: 2;
+	margin-right: 1.1rem;
+
+	&--arriba {@include fotos
+		justify-content: flex-start;
+		padding-top: 5rem;
+
+			img {padding: 0.4em}
+			}
+			
+
+	&--abajo {@include fotos
+		justify-content: flex-start;
+
+			img {padding: 0.4em}
+			}
+	}
+
+.secciones__titulos--dos {@include atributostitulos;
+	justify-content: flex-start;}
+
+.seccionDos__titulo {order: 1;
+	font-size: $font-size-titulos;
+	line-height: $line-height-titulos;
+	margin-left: 8rem;
+	margin-right:0.5rem;
+	
+			a {@include navegaciontitulos
+
+				p {display: flex;
+				justify-content: flex-start;}
+			}
+			}

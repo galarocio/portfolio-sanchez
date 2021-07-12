@@ -1,547 +1,73 @@
-/*general*/
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap');
-
-* {margin: 0px;
-padding: 0px }
-
-html {scroll-behavior: smooth;}
-
-body {background:#F5F5F5;
-	font-family:'Roboto Condensed', sans-serif;
-	text-transform: uppercase;}	
-
-.display-4 {font-size: 180px;
-	line-height: 330px;}
-
-#grid {display: grid;
-	height: 100%;
-	grid-template-areas: 
-	"banner"
-	"nav"
-	"ilus"
-	"tatu"
-	"indu"
-	"footer";
-    grid-template-rows: 100vh auto auto auto auto auto}
-
-h1 {transition: all 190ms;}
-
-h1:hover {letter-spacing: 7px;}
-
-/*banner*/
-
-
-.banner {grid-area: banner;
-	background-image: url(../media/bannerfinal.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	display: flex;
-	align-items: center;}
-
-.banner a {width: 30%;
-	display: flex;
-	justify-content: center;
-	margin-top: 20em;}
-
-.banner .flechaAbajo {width: 20%;
-	background-image: url(../media/circuloflecha.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	transition: all 170ms}
-
-.flechaAbajo:hover {transform: scale(1.1);}
-
-/*navegador*/
-
-.navegacion {grid-area: nav;}
-
-.navbar img {width:70%;
-	transition: all 1.5s}
-
-.navbar img:hover {transform: rotate(360deg);}
-
-
-.navbar {background-color: #26292C}
-
-.nav-item {font-size:19px;
-	letter-spacing: 2.5px;}
-
-.nav-link {color: rgba(255, 255, 255, 0.87);
-	transition: all 190ms;}
-
-.nav-link:hover {color: rgba(255, 255, 255, 0.87);
-	letter-spacing: 7px;}
-
-#header {border-bottom: 1px solid black;
-	position: sticky;
-	top:0px;
-	z-index: 100;
-	background-color: #26292C;
-	}
-
-#header img.logo {float: left;
-	margin-top: 2px;
-	width: 70px;
-	transition: all 1.5s}
-
-#header img.logo:hover {transform: rotate(360deg);}
-
-#barraNav {padding: 20px;
-	text-align:center;}
-
-#barraNav ul {display: inline;}
-
-#barraNav li {display:inline-block;
-	list-style: none;
-	margin-right: 20px;
-	float: center;}
-
-#barraNav a {color: #ADB5BD;
-	text-decoration:none;
-	font-family:'Roboto Condensed', sans-serif;
-	letter-spacing: 3px;
-	word-spacing: 10px;
-	transition: all 190ms}
-
-#barraNav a:hover {letter-spacing: 7px;}
-
-
-@media all and (max-width: 768px) 
-
-		{
-		#barraNav a {display: none}
-		.banner .flechaAbajo {width: 40%}
-		}*/
-
-
-/*index ilustración*/
-img {width: 47%;
-	transition: all 170ms}
-
-img:hover {opacity: 0.7}
-
-.seccionUno {grid-area: ilus;
-	width: 100%;
-	display: flex;
-	flex-direction:row;}
-
-
-.ilustraciones {width: 65%;
-	margin-left: 1.1rem;}
-
-div#ilustracionUno {display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	padding-top: 5rem;}
-
-div#ilustracionDos {display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-end;}
-
-#ilustracionUno img {padding: 0.4em}
-
-
-div.tituloSeccionIlus {width: 35%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	color: #15616d;
-	letter-spacing: 7px;
-	line-height: 300%;
-	font-weight: 700;
-	text-align: right;
-	font-size: 20px;} 
-
-.tituloUno h1 {display: flex;
-	justify-content: flex-end;}
-
-.tituloUno {font-size: 180px;
-	line-height: 330px;
-	margin-top: 0.7em;
-	margin-left: 1rem;
-	margin-right:4.5rem;}
-
-.tituloUno a {text-decoration:none;
-	color: #15616d;}
-
-@media all and (max-width:768px)
-	{
-		.ilustraciones {width: 50%}
-
-		div#ilustracionUno {display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: flex-start;
-			padding-top: 5rem;}
-
-		div#ilustracionDos {display: none}
-
-		div#ilustracionUno img {width: 100%;
-			margin-left: 1rem;}
-
-		div.tituloSeccionIlus {width: 50%}
-
-		.tituloUno {font-size: 120px;
-			line-height: 250px;
-			margin-top: 0.7em;
-			margin-right: 1rem;}
-
-	}
-
-	@media all and (max-width: 1200px) and (min-width: 768px)
-
-	{
-		.ilustraciones {width: 80%;
-			margin-left: 3rem;}
-
-		div#ilustracionUno {display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: flex-start;
-			padding-top: 5rem;}
-		div#ilustracionDos {justify-content: flex-start;}
-
-		div#ilustracionUno img {width: 48%;}
-
-		div#ilustracionDos img {width: 48%;}
-
-		div.tituloSeccionIlus {width: 50%;
-			margin-right: 2rem;}
-
-		.tituloUno {font-size: 120px;
-			line-height: 250px;
-			margin-top: 0.7em;
-			margin-right: 1rem;}
-	}
-
-/*index tatuajes*/
-
-
-.seccionDos {grid-area: tatu;
-	width: 100%;
-	display: flex;
-	flex-direction:row;}
-
-img {width: 47%;}
-
-.tatuajes {width: 65%;
-	order: 2;
-	margin-right: 1.1rem;}
-
-div#tatuajesUno {display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	padding-top: 5rem;}
-
-div#tatuajesDos {display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;}
-
-#tatuajesUno img {padding: 0.4em}
-
-
-div.tituloSeccionTat {
-	width: 35%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	color: #15616d;
-	letter-spacing: 7px;
-	line-height: 300%;
-	font-weight: 700;
-	text-align: right;
-	font-size: 20px;}
-
-.tituloDos h1 {display: flex;
-	justify-content: flex-start;}
-
-.tituloDos {order: 1;
-	font-size: 180px;
-	line-height: 330px;
-	margin-top: 0.7em;
-	margin-left: 4.5rem;
-	margin-right:1rem;}
-
-
-.tituloDos a {text-decoration:none;
-	color: #15616d;}
-
-
-@media all and (max-width:768px)
-	{
-		.tatuajes {width: 50%;
-			margin-left: 5.5rem}
-
-		div#tatuajesUno {display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: flex-start;
-		padding-top: 5rem;}
-
-		div#tatuajesDos {display: none}
-
-		div#tatuajesUno img {width: 100%;
-			margin-right: 0.5rem;}
-
-		.tituloSeccionTat {width: 50%}
-
-		.tituloDos {font-size: 120px;
-			line-height: 250px;
-			margin-top: 0.7em;
-			margin-left: 1rem;}
-	}
-
-
-	@media all and (max-width: 1200px) and (min-width: 768px)
-
-	{
-		.tatuajes {width: 80%;
-			margin-left: 3rem;}
-
-		div#tatuajesUno {display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: flex-start;
-			padding-top: 5rem;}
-
-		div.tatuajes img {width: 48%;}
-
-		div.tituloSeccionTat {width: 50%;
-			margin-right: 2rem;}
-
-		.tituloDos {font-size: 120px;
-			line-height: 250px;
-			margin-top: 0.4em;
-			margin-right: 1rem;}
-	}
-
-
-/*index indumentaria*/
-
-.seccionTres {grid-area: indu;
-	width: 100%;
-	display: flex;
-	flex-direction:row;
-	border-bottom: 1px solid black}
-
-img {width: 47%;}
-
-#indumentaria {width: 65%;
-	margin-left: 1.1rem;}
-
-div#indumentariaUno {display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	padding-top: 5rem;}
-
-
-div#indumentariaDos {display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	margin-bottom: 4em;}
-
-#indumentaria img {padding: 0.4em}
-
-
-
-div.tituloSeccionIndu {
-	width: 35%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	color: #15616d;
-	letter-spacing: 7px;
-	line-height: 300%;
-	font-weight: 700;
-	text-align: right;
-	font-size: 20px;}
-
-.tituloTres h1 {display: flex;
-	justify-content: flex-end;}
-
-.tituloTres {
-	font-size: 180px;
-	line-height: 330px;
-	margin-top: 0.7em;
-	margin-left: 1rem;
-	margin-right:4.5rem;}
-
-
-.tituloTres a {text-decoration:none;
-	color: #15616d;}
-
-
-@media all and (max-width:768px)
-	{
-		#indumentaria {width: 50%}
-
-		div#indumentariaUno {display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: flex-start;
-			padding-top: 5rem;
-			margin-bottom: 5em;}
-
-		div#indumentariaDos {display: none}
-
-		div#indumentariaUno img {width: 100%;
-			margin-left: 1rem;}
-
-		.tituloSeccionIndu {width: 50%;
-			margin-left:5rem;}
-			
-		.tituloTres {font-size: 120px;
-			line-height: 250px;
-			margin-top: 0.7em;
-			margin-right: 1rem;}
-	}
-
-	@media all and (max-width: 1200px) and (min-width: 768px)
-
-	{
-		#indumentaria {width: 80%;
-			margin-left: 3rem;}
-
-		div#indumentariaUno {display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			justify-content: flex-start;
-			padding-top: 5rem;}
-
-		div#indumentariaDos {justify-content: flex-start;}
-
-		div#indumentariaUno img {width: 48%;}
-
-		div#indumentariaDos img {width: 48%;}
-
-		div.tituloSeccionIndu {width: 50%;
-			margin-right: 2rem;}
-
-		.tituloTres {font-size: 120px;
-			line-height: 250px;
-			margin-top: 0.7em;
-			margin-right: 1rem;}
-	}
-
- /*index contacto*/
-
-#footer {grid-area: footer;
-	display: flex;
-	background-color: #26292C;}
-
-#contacto {width: 50%;}
-
-#contacto a {text-decoration:none;
-	color: #e9ecef;}
-
-#contacto h3 {font-size: 46px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	margin-top: 3em;
-	margin-bottom: 2.5em;
-	border-right: 1px solid black;
-	letter-spacing: 3px;
-	color: #dee2e6;}
-
-.logos {width: 50%;
-	display: flex;
-	margin-top: 3em;
-	margin-bottom: 4em;
-	align-items: center;
-	margin-left: 5rem}
-
-.logos img {width: 70px;
-	padding: 5rem}
-
-.logos a {display: flex;
-	justify-content: center;}
-
-@media all and (max-width:768px)
-	{
-		#contacto {width: 100%}
-		.logos {display: none}
-	}
-
-
-@media all and (max-width:1200px) and (min-width: 768px)
-	{
-		#contacto {width: 100%}
-		.logos {display: none}
-	}
-
-/*ilustracion html*/
-
-
-#ilustracionHtml div {display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;}
-
-#ilustracionHtml div img {max-width: 25%;
-	padding-left:1rem;}
-
-div.gatos {margin-top: 5em;}
-
-div.margen {margin-top: 1.5em;}
-
-div.proto {margin-top: 1.5em;
-	border-bottom: 1px solid black;}
-
-div.proto img {margin-bottom: 5em;}
-
-
-
-/*tatuajes html*/
-
-
-#tatuajesHtml div {display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;}
-
-#tatuajesHtml div img {max-width: 25%;
-	padding-left:1rem;}
-
-div.arriba {margin-top: 5em;}
-
-div.abajo {margin-top: 1.5em;
-	border-bottom: 1px solid black;}
-
-div.abajo img {margin-bottom: 5em;}
-
-/*indumentaria html*/
-
-
-#indumentariaHtml div {display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;}
-
-#indumentariaHtml div img {max-width: 25%;
-	padding-left:1rem;}
-
-div.tesisUno {margin-top: 5em;}
-
-div.tesisDos {margin-top: 1em}
-
-div.tesisTres {margin-top: 3em;}
-
-div.tesisCuatro {margin-top:1em;
-border-bottom: 1px solid black}
-
-div.tesisCuatro img {margin-bottom:5em;}
-
-/*contacto html*/
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+.mtop-1 {
+  margin-top: 0.2em; }
+
+.mtop-2 {
+  margin-top: 0.4em; }
+
+.mtop-3 {
+  margin-top: 0.6em; }
+
+.mtop-4 {
+  margin-top: 0.8em; }
+
+.mtop-5 {
+  margin-top: 1em; }
+
+.weight-thin {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300; }
+
+.weight-regular {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400; }
+
+.weight-bold {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700; }
+
+.weight-extraBold {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 1400; }
+
+.text-xsm {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 10px; }
+
+.text-sm {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px; }
+
+.text-md {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 50px; }
+
+.text-lg {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 100px; }
+
+.text-xlg {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 200px; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  scroll-behavior: smooth; }
+  html body {
+    background: #F5F5F5;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase; }
+    html body #grid {
+      display: grid;
+      height: 100%;
+      grid-template-areas: "banner" "nav" "ilus" "tatu" "indu" "footer";
+      grid-template-rows: 100vh auto auto auto auto auto; }
+
+/*contacto html
 
 #gridContacto {display: grid;
 	grid-template-areas: 
@@ -586,4 +112,372 @@ div.logosContacto {display:flex;
 	justify-content: center;}
 
 #footerContacto {grid-area: foot;
-	background-color: #26292C;}
+	background-color: #26292C;}*/
+/*banner*/
+.banner {
+  grid-area: banner;
+  background-image: url(../media/bannerfinal.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .banner__button--nav {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20em; }
+  .banner__button {
+    width: 20%;
+    background-image: url(../media/circuloflecha.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all 170ms; }
+  .banner__button:hover {
+    transform: scale(1.1); }
+
+/*navegador*/
+.navbar {
+  background-color: #26292C; }
+  .navbar img {
+    width: 70%;
+    transition: all 1.5s; }
+    .navbar img:hover {
+      transform: rotate(360deg); }
+
+.nav-item {
+  font-size: 19px;
+  letter-spacing: 2.5px; }
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.87);
+  transition: all 190ms; }
+  .nav-link:hover {
+    color: rgba(255, 255, 255, 0.87);
+    letter-spacing: 7px; }
+
+/*index ilustración*/
+.seccionUno {
+  grid-area: ilus;
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
+  .seccionUno img {
+    width: 47%;
+    transition: all 170ms; }
+    .seccionUno img:hover {
+      opacity: 0.7; }
+
+.seccionUno__fotos {
+  width: 65%;
+  margin-left: 1.1rem; }
+  .seccionUno__fotos--arriba {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    justify-content: flex-end; }
+    .seccionUno__fotos--arriba img {
+      padding: 0.4em; }
+  .seccionUno__fotos--abajo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end; }
+
+.secciones__titulos {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  color: #15616d;
+  letter-spacing: 7px;
+  line-height: 300% !important;
+  font-weight: 700;
+  text-align: right;
+  justify-content: flex-end; }
+
+.seccionUno__titulo {
+  font-size: 180px;
+  line-height: 200%;
+  margin-left: 1rem;
+  margin-right: 4.5rem; }
+  .seccionUno__titulo a {
+    text-decoration: none;
+    color: #15616d; }
+    .seccionUno__titulo a p {
+      display: flex;
+      justify-content: flex-end; }
+
+/*index tatuajes*/
+.seccionDos {
+  grid-area: tatu;
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
+  .seccionDos img {
+    width: 47%;
+    transition: all 170ms; }
+    .seccionDos img:hover {
+      opacity: 0.7; }
+
+.seccionDos__fotos {
+  width: 65%;
+  order: 2;
+  margin-right: 1.1rem; }
+  .seccionDos__fotos--arriba {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 5rem; }
+    .seccionDos__fotos--arriba img {
+      padding: 0.4em; }
+  .seccionDos__fotos--abajo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+    .seccionDos__fotos--abajo img {
+      padding: 0.4em; }
+
+.secciones__titulos--dos {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  color: #15616d;
+  letter-spacing: 7px;
+  line-height: 300% !important;
+  font-weight: 700;
+  text-align: right;
+  justify-content: flex-start; }
+
+.seccionDos__titulo {
+  order: 1;
+  font-size: 180px;
+  line-height: 200%;
+  margin-left: 8rem;
+  margin-right: 0.5rem; }
+  .seccionDos__titulo a {
+    text-decoration: none;
+    color: #15616d; }
+    .seccionDos__titulo a p {
+      display: flex;
+      justify-content: flex-start; }
+
+/*index indumentaria*/
+.seccionTres {
+  grid-area: indu;
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
+  .seccionTres img {
+    width: 47%;
+    transition: all 170ms; }
+    .seccionTres img:hover {
+      opacity: 0.7; }
+
+.seccionTres__fotos {
+  width: 65%;
+  margin-left: 4rem; }
+  .seccionTres__fotos--arriba {
+    justify-content: flex-end;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .seccionTres__fotos--arriba img {
+      padding: 0.4em; }
+  .seccionTres__fotos--abajo {
+    justify-content: flex-start;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .seccionTres__fotos--abajo img {
+      padding: 0.4em; }
+
+.secciones__titulos--tres {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  color: #15616d;
+  letter-spacing: 7px;
+  line-height: 300% !important;
+  font-weight: 700;
+  text-align: right;
+  justify-content: flex-end; }
+
+.seccionTres__titulo {
+  font-size: 180px;
+  line-height: 200%;
+  margin-left: 1rem;
+  margin-right: 4.5rem; }
+  .seccionTres__titulo a {
+    text-decoration: none;
+    color: #15616d; }
+    .seccionTres__titulo a h3 {
+      display: flex;
+      justify-content: flex-end; }
+
+/*index contacto*/
+.footer {
+  grid-area: footer;
+  display: flex;
+  background-color: #26292C;
+  margin-top: 5em;
+  border-top: 1px solid black; }
+
+.footer__frase {
+  width: 50%; }
+  .footer__frase a {
+    text-decoration: none;
+    color: #e9ecef; }
+    .footer__frase a h3 {
+      font-size: 46px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 3em;
+      margin-bottom: 2.5em;
+      border-right: 1px solid black;
+      letter-spacing: 3px;
+      color: #dee2e6; }
+
+.footer__logos {
+  width: 50%;
+  display: flex;
+  margin-top: 3em;
+  margin-bottom: 4em;
+  align-items: center;
+  margin-left: 5rem; }
+  .footer__logos a {
+    display: flex;
+    justify-content: center; }
+    .footer__logos a img {
+      width: 70px;
+      padding: 5rem; }
+
+.card {
+  background-color: #26292C;
+  height: 20vh; }
+
+.card h5, a {
+  color: rgba(255, 255, 255, 0.87);
+  width: 80%; }
+
+.card h5 {
+  font-size: 40px; }
+
+.btn {
+  padding: 0.375rem 2.75rem;
+  border-color: #ffffff94;
+  background-color: transparent;
+  transition: all 500ms;
+  color: rgba(255, 255, 255, 0.87); }
+
+.btn:hover {
+  padding: 0.375rem 7rem;
+  border-color: #ffffff94;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.87); }
+
+.btn:focus {
+  box-shadow: none;
+  color: rgba(255, 255, 255, 0.87); }
+
+.modal-header .close {
+  margin: -0.8rem -1rem -1rem auto;
+  color: rgba(255, 255, 255, 0.87); }
+
+.modal-header {
+  background-color: #26292C;
+  width: 100%; }
+
+.modal-header h5 {
+  color: rgba(255, 255, 255, 0.87); }
+
+.btnEnviar {
+  background-color: transparent;
+  border: 1px solid #ced4da;
+  width: 20%;
+  transition: all 300ms; }
+
+.btnEnviar:hover {
+  background-color: #ced4da; }
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid black; }
+
+/*ilustracion html*/
+#ilustracionHtml div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+#ilustracionHtml div img {
+  max-width: 25%;
+  padding-left: 1rem;
+  transition: all 170ms; }
+  #ilustracionHtml div img:hover {
+    opacity: 0.7; }
+
+div.gatos {
+  margin-top: 5em; }
+
+div.margen {
+  margin-top: 1.5em; }
+
+div.proto {
+  margin-top: 1.5em; }
+
+div.proto img {
+  margin-bottom: 5em; }
+
+/*tatuajes html*/
+#tatuajesHtml div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+#tatuajesHtml div img {
+  max-width: 25%;
+  padding-left: 1rem; }
+
+div.arriba {
+  margin-top: 5em; }
+
+div.abajo {
+  margin-top: 1.5em; }
+
+div.abajo img {
+  margin-bottom: 5em; }
+
+/*indumentaria html*/
+#indumentariaHtml div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+#indumentariaHtml div img {
+  max-width: 25%;
+  padding-left: 1rem; }
+
+div.tesisUno {
+  margin-top: 5em; }
+
+div.tesisDos {
+  margin-top: 1em; }
+
+div.tesisTres {
+  margin-top: 3em; }
+
+div.tesisCuatro {
+  margin-top: 1em; }
+
+div.tesisCuatro img {
+  margin-bottom: 5em; }

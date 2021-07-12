@@ -1,0 +1,43 @@
+/*index ilustración*/
+
+.seccionUno {grid-area: ilus;
+	@include seccionesindex
+
+		img {@include imagenesindex
+
+			&:hover {opacity: 0.7}
+			}
+			}
+
+
+.seccionUno__fotos {width: 65%;
+	margin-left: 1.1rem;
+
+	&--arriba {@include fotos
+		padding-top: 5rem;
+		justify-content: flex-end;		
+
+				img {padding: 0.4em}
+				}	
+			
+
+	&--abajo {@include fotos
+		justify-content: flex-end;}
+		}
+
+.secciones__titulos {@include atributostitulos
+	justify-content: flex-end;
+	} 
+
+.seccionUno__titulo {font-size: $font-size-titulos;
+	line-height: $line-height-titulos;
+	margin-left: 1rem;
+	margin-right:4.5rem;
+	
+
+		a {@include navegaciontitulos
+
+			p {display: flex;
+			justify-content: flex-end;}
+			}
+			}

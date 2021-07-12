@@ -1,0 +1,22 @@
+
+@mixin seccionesindex {width: 100%;
+	display: flex;
+	flex-direction:row;}
+
+@mixin imagenesindex {width: 47%;
+		transition: all 170ms;}
+
+@mixin fotos {display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;}
+
+@mixin atributostitulos {width: 35%;
+	display: flex;
+	flex-wrap: wrap;color: #15616d;
+	letter-spacing: 7px;
+	line-height: 300% !important;
+	font-weight: 700;
+	text-align: right;}
+
+@mixin navegaciontitulos {text-decoration:none;
+			color: #15616d;}

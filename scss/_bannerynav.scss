@@ -1,0 +1,49 @@
+/*banner*/
+
+.banner {grid-area: banner;
+	background: {
+		image: url(../media/bannerfinal.jpg);
+		repeat: no-repeat;
+		position: center;
+		size: cover;}
+	display: flex;
+	align-items: center;
+
+		&__button--nav {width: 30%;
+			display: flex;
+			justify-content: center;
+			margin-top: 20em;}
+
+		&__button {width: 20%;
+
+			background: {image: url(../media/circuloflecha.png);
+				repeat: no-repeat;
+				position: center;
+				size: cover;}
+
+	transition: all 170ms;}
+
+		&__button:hover {transform: scale(1.1);}
+}
+
+/*navegador*/
+
+.navbar {background-color: #26292C;
+
+ 			img {width:70%;
+			transition: all 1.5s;
+
+   &:hover {transform: rotate(360deg);}
+}
+}
+
+
+.nav-item {font-size:19px;
+	letter-spacing: 2.5px;}
+
+.nav-link {color: rgba(255, 255, 255, 0.87);
+	transition: all 190ms;
+
+&:hover {color: rgba(255, 255, 255, 0.87);
+	letter-spacing: 7px;}}
+	

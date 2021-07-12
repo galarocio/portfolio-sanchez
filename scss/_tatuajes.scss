@@ -1,0 +1,18 @@
+
+
+/*tatuajes html*/
+
+
+#tatuajesHtml div {display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;}
+
+#tatuajesHtml div img {max-width: 25%;
+	padding-left:1rem;}
+
+div.arriba {margin-top: 5em;}
+
+div.abajo {margin-top: 1.5em;}
+
+div.abajo img {margin-bottom: 5em;}

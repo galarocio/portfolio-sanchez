@@ -1,0 +1,45 @@
+/*index indumentaria*/
+
+.seccionTres {grid-area: indu;
+	@include seccionesindex
+
+		img {@include imagenesindex
+
+			&:hover {opacity: 0.7}
+			}
+			}
+
+.seccionTres__fotos {width: 65%;
+	margin-left: 4rem;
+
+	&--arriba {justify-content: flex-end;
+		padding-top: 5rem;
+		@include fotos
+		
+			img {padding: 0.4em}
+			}
+
+	&--abajo {justify-content: flex-start;
+		margin-bottom: 4em;
+		@include fotos
+
+			img {padding: 0.4em}
+			}
+			}
+
+.secciones__titulos--tres {@include atributostitulos
+	justify-content: flex-end;
+	}
+
+
+.seccionTres__titulo {font-size: $font-size-titulos;
+	line-height: $line-height-titulos;
+	margin-left: 1rem;
+	margin-right: 4.5rem;
+	
+			a {@include navegaciontitulos
+
+				h3 {display: flex;
+				justify-content: flex-end;}
+			}
+			}
