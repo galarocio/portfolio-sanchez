@@ -321,43 +321,44 @@ div.logosContacto {display:flex;
       justify-content: flex-end; }
 
 /*index contacto*/
-.footer {
-  grid-area: footer;
-  display: flex;
-  background-color: #26292C;
-  margin-top: 5em;
-  border-top: 1px solid black; }
+/*.footer {grid-area: footer;
+	display: flex;
+	background-color: #26292C;
+	margin-top: 5em;
+	border-top: 1px solid black;}
 
-.footer__frase {
-  width: 50%; }
-  .footer__frase a {
-    text-decoration: none;
-    color: #e9ecef; }
-    .footer__frase a h3 {
-      font-size: 46px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin-top: 3em;
-      margin-bottom: 2.5em;
-      border-right: 1px solid black;
-      letter-spacing: 3px;
-      color: #dee2e6; }
+.footer__frase {width: 50%;
 
-.footer__logos {
-  width: 50%;
-  display: flex;
-  margin-top: 3em;
-  margin-bottom: 4em;
-  align-items: center;
-  margin-left: 5rem; }
-  .footer__logos a {
-    display: flex;
-    justify-content: center; }
-    .footer__logos a img {
-      width: 70px;
-      padding: 5rem; }
+	a {text-decoration:none;
+		color: #e9ecef;
 
+			h3 {font-size: 46px;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			margin-top: 3em;
+			margin-bottom: 2.5em;
+			border-right: 1px solid black;
+			letter-spacing: 3px;
+			color: #dee2e6;}
+		}
+		}
+
+
+.footer__logos {width: 50%;
+	display: flex;
+	margin-top: 3em;
+	margin-bottom: 4em;
+	align-items: center;
+	margin-left: 5rem;
+
+		a {display: flex;
+		justify-content: center;
+			img {width: 70px;
+			padding: 5rem}
+		}
+		}
+		*/
 .card {
   background-color: #26292C;
   height: 20vh; }
@@ -710,10 +711,15 @@ div.tesisCuatro img {
     padding-top: 1rem;
     justify-content: center; }
   .seccionTres__fotos--abajo {
+    margin-bottom: 1rem;
     justify-content: center; }
   .seccionTres__titulo {
     line-height: 40%;
     margin-right: 1rem;
     margin-top: 1.5rem; }
     .seccionTres__titulo p {
-      font-size: 40px; } }
+      font-size: 40px; }
+  .card h5 {
+    font-size: 25px; }
+  .btn:hover {
+    padding: 0.375rem 3.5rem; } }
