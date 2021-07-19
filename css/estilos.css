@@ -667,6 +667,8 @@ div.tesisCuatro img {
       width: 60%;
       justify-content: start;
       margin-left: 2rem; }
+  nav button:focus {
+    border-color: #F5F5F5; }
   html body #grid {
     display: grid;
     height: 100%;
@@ -715,7 +717,7 @@ div.tesisCuatro img {
     justify-content: center; }
   .seccionTres__titulo {
     line-height: 40%;
-    margin-right: 1rem;
+    margin-right: 0.3rem;
     margin-top: 1.5rem; }
     .seccionTres__titulo p {
       font-size: 40px; }
