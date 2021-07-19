@@ -177,8 +177,10 @@
 @media all and (max-width:400px)
 
 {
-	.banner {background-image: url(../media/bannerfinalmobile.jpg);
+	.banner {
+			background-image: url(../media/bannerfinalmobile.jpg);
 			height: 13em;
+
 				&__button--nav {margin-top:0px;
 								width: 60%;
 								justify-content: start;
@@ -190,5 +192,24 @@
     height: 100%;
     grid-template-areas: "banner" "nav" "ilus" "tatu" "indu" "footer";
     grid-template-rows: auto auto auto auto auto auto;
-}
-}
+					}
+	.seccionUno {
+		img {width: 50%;}
+
+		&__fotos--arriba {
+    		padding-top: 1rem;
+ 			justify-content: center;
+ 				img {padding: 0.2em}
+ 						}
+ 		&__fotos--abajo {
+    		justify-content: center;}
+    					}
+
+    .seccionUno__titulo {line-height: 40%;
+    					margin-right: 1rem;
+    					margin-top: 1rem;
+    		p {font-size: 40px}
+
+    					}
+    			}
+    	
