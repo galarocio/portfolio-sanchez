@@ -658,7 +658,7 @@ div.tesisCuatro img {
 /*
 
 /*media queries mobile*/
-@media all and (max-width: 400px) {
+@media all and (max-width: 490px) {
   .banner {
     background-image: url(../media/bannerfinalmobile.jpg);
     height: 13em; }
