@@ -569,6 +569,44 @@ div.tesisCuatro img {
   .btn:hover {
     padding: 0.375rem 3.5rem; } }
 
+/*indumentaria*/
+#ilustracionHtml div img {
+  max-width: 33%;
+  padding: 0.4rem; }
+
+div.gatos {
+  margin-top: 1.5em; }
+
+div.proto img {
+  margin-bottom: 1.5em; }
+
+/*tatuajes*/
+#tatuajesHtml div img {
+  max-width: 33%;
+  padding: 0.4rem; }
+
+div.arriba {
+  margin-top: 1.5em; }
+
+div.abajo {
+  margin-bottom: 1.5em; }
+
+/*indumetaria*/
+#indumentariaHtml div img {
+  max-width: 33%;
+  padding: 0.4rem; }
+
+div.tesisUno {
+  margin-top: 1.5em; }
+
+div.tesisDos {
+  margin-top: 0.1em; }
+
+div.tesisCuatro {
+  margin-top: 0.1em; }
+  div.tesisCuatro img {
+    margin-bottom: 1.5em; }
+
 @media all and (min-width: 801px) and (max-width: 1200px) {
   /*index*/
   .banner {
