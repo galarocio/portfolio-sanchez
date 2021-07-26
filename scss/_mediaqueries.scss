@@ -15,7 +15,8 @@
 			}
 
 	nav {
-		button:focus {border-color: #F5F5F5;}
+		button:focus {border-color: #F5F5F5;
+					outline: 5px auto;}
 		}
 
 	html body #grid {
@@ -90,7 +91,7 @@
 
 /*indumentaria*/
 
-	 #tatuajesHtml {div {img {max-width: 33%;
+  	#ilustracionHtml {div {img {max-width: 33%;
   							padding: 0.4rem;}
   							}
   							}
@@ -102,7 +103,7 @@
 
  /*tatuajes*/
 
-  		#ilustracionHtml {div {img {max-width: 33%;
+	 #tatuajesHtml {div {img {max-width: 33%;
   							padding: 0.4rem;}
   							}
   							}
@@ -111,5 +112,20 @@
 
 	div.abajo {margin-bottom: 1.5em}
 
+
+
+/*indumetaria*/
+
+	 #indumentariaHtml {div {img {max-width: 33%;
+  							padding: 0.4rem;}
+  							}
+  							}
+
+	div {&.tesisUno {margin-top: 1.5em;}
+
+		&.tesisDos {margin-top: 0.1em;}
+
+		&.tesisCuatro {margin-top: 0.1em;
+						img {margin-bottom:1.5em;}}
 }
-    	
+}
