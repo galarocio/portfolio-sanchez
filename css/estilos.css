@@ -572,7 +572,7 @@ div.tesisCuatro img {
 @media all and (min-width: 801px) and (max-width: 1200px) {
   /*index*/
   .banner {
-    background-image: url(../media/bannerfinalmobile.jpg);
+    background-image: url(../media/bannerfinal.jpg);
     height: 33em; }
     .banner__button--nav {
       margin-top: 0px;
