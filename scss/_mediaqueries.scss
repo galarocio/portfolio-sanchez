@@ -129,3 +129,96 @@
 						img {margin-bottom:1.5em;}}
 }
 }
+
+/*media queries tablet*/
+
+@media all and (min-width:491px) and (max-width:800px)
+
+{ /*index*/
+	.banner {
+			background-image: url(../media/bannerfinalmobile.jpg);
+			height: 25em;
+
+				&__button--nav {margin-top:0px;
+								width: 60%;
+								justify-content: start;
+								margin-left:3rem;}
+			}
+
+	nav {
+		button:focus {border-color: #F5F5F5;
+					outline: 5px auto;}
+		}
+
+	html body #grid {
+    display: grid;
+    height: 100%;
+    grid-template-areas: "banner" "nav" "ilus" "tatu" "indu" "footer";
+    grid-template-rows: auto auto auto auto auto auto;
+					}
+	.seccionUno {
+		img {width: 50%;}
+
+		&__fotos--arriba {
+    		padding-top: 1rem;
+ 			justify-content: center;
+ 				img {padding: 0.2em}
+ 						}
+ 		&__fotos--abajo {
+    		justify-content: center;}
+    					}
+
+    .seccionUno__titulo {line-height: 83%;
+    					margin-right: 1rem;
+    					margin-top: 1rem;
+    		p {font-size: 70px}
+
+    					}
+
+    .seccionDos {
+		img {width: 50%;}
+
+		&__fotos--arriba {
+    		padding-top: 1rem;
+ 			justify-content: center;
+ 				img {padding: 0.2em}
+ 						}
+ 		&__fotos--abajo {
+    		justify-content: center;}
+    					}
+
+    .seccionDos__titulo {line-height: 83%;
+    					margin-left: 1.5rem;
+    					margin-top: 1rem;
+    		p {font-size: 70px}
+
+    					}
+
+    .seccionTres {
+		img {width: 50%;
+			padding: 0.2em}
+
+		&__fotos {margin-left: 1rem;}	
+
+		&__fotos--arriba {
+    		padding-top: 1rem;
+ 			justify-content: center;
+ 						}
+ 		&__fotos--abajo {margin-bottom: 1rem;
+    		justify-content: center;}
+    					}
+
+    .seccionTres__titulo {line-height: 83%;
+    					margin-right: 0.3rem;
+    					margin-top: 1.5rem;
+    		p {font-size: 70px}
+
+    					}
+	.card {
+		h5 {font-size: 33px;
+			margin-left: 1rem;}
+
+    		}
+    .btn:hover {padding: 0.375rem 3.5rem;}
+}
+
