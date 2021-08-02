@@ -411,6 +411,59 @@ div.tesisCuatro {
 div.tesisCuatro img {
   margin-bottom: 5em; }
 
+#gridContacto {
+  display: grid;
+  grid-template-areas: "nav nav" "contacto logos" "foot foot";
+  grid-template-rows: auto auto 60px;
+  grid-template-columns: auto auto; }
+
+#formulario {
+  grid-area: contacto;
+  border-right: 1px solid black;
+  margin-bottom: 2em;
+  margin-top: 2em; }
+
+#formulario h3 {
+  font-size: 70px;
+  margin-top: 1em;
+  display: flex;
+  margin-left: 3rem; }
+
+#formulario div.textArea {
+  display: flex;
+  flex-direction: column; }
+
+.form {
+  display: flex;
+  margin-left: 6rem;
+  margin-top: 2.5em;
+  margin-bottom: 2em; }
+
+.form div {
+  padding: 0.8em; }
+
+div.mailYRedes {
+  grid-area: logos; }
+
+div.mailYRedes h4 {
+  margin-top: 1.8em;
+  font-size: 60px;
+  display: flex;
+  justify-content: center; }
+
+div.logosContacto img {
+  width: 60px;
+  padding: 2em;
+  margin-top: 4em; }
+
+div.logosContacto {
+  display: flex;
+  justify-content: center; }
+
+#footerContacto {
+  grid-area: foot;
+  background-color: #26292C; }
+
 /*media queries mobile*/
 @media all and (max-width: 490px) {
   /*index*/
