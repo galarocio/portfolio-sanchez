@@ -22,8 +22,11 @@
 			
 
 	&--abajo {@include fotos
-		justify-content: flex-end;}
-		}
+		justify-content: flex-end;		
+
+				img {padding: 0.4em}
+				}	
+			}
 
 .secciones__titulos {@include atributostitulos
 	justify-content: flex-end;

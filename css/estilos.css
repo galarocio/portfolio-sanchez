@@ -139,6 +139,8 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end; }
+    .seccionUno__fotos--abajo img {
+      padding: 0.4em; }
 
 .secciones__titulos {
   width: 35%;
