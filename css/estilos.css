@@ -505,6 +505,28 @@ div.logosContacto {
   grid-area: foot;
   background-color: #26292C; }
 
+.tituloMuestras {
+  margin-top: 4rem;
+  margin-left: 4rem;
+  font-size: 40px;
+  border-bottom: 0.5px solid black;
+  width: 93%; }
+
+.muestras {
+  display: flex;
+  justify-content: space-evenly; }
+  .muestras .card {
+    background-color: white;
+    margin-top: 4rem;
+    margin-bottom: 28rem; }
+    .muestras .card .direccion {
+      text-transform: none; }
+    .muestras .card .card-title {
+      color: #26292C; }
+    .muestras .card a {
+      color: #26292C;
+      border-color: black; }
+
 /*media queries mobile*/
 @media all and (max-width: 490px) {
   /*index*/
