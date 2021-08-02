@@ -411,6 +411,47 @@ div.tesisCuatro {
 div.tesisCuatro img {
   margin-bottom: 5em; }
 
+main.biografia {
+  display: flex; }
+  main.biografia .izquierda {
+    border-right: 1px solid black;
+    width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  main.biografia .derecha {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 50%; }
+
+.biografia .container {
+  margin-left: 1rem;
+  display: inline; }
+  .biografia .container .FotoPresentacion {
+    width: 50%;
+    float: left;
+    padding: 3rem; }
+  .biografia .container p {
+    letter-spacing: 0.04rem;
+    width: 90%; }
+    .biografia .container p.PrimerParrafo {
+      padding-top: 2.5rem;
+      padding-left: 2.5rem; }
+  .biografia .container h3 {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-left: 5rem; }
+    .biografia .container h3.tituloBio {
+      margin-top: 2.5rem;
+      margin-bottom: 0rem; }
+
+.biografia iframe {
+  margin-left: 5rem; }
+
+footer.bio {
+  width: 100%; }
+
 #gridContacto {
   display: grid;
   grid-template-areas: "nav nav" "contacto logos" "foot foot";
@@ -561,10 +602,92 @@ div.logosContacto {
   div.tesisCuatro {
     margin-top: 0.1em; }
     div.tesisCuatro img {
-      margin-bottom: 1.5em; } }
+      margin-bottom: 1.5em; }
+  /*biografia*/
+  main.biografia {
+    display: block; }
+    main.biografia .izquierda {
+      border-bottom: 1px solid black;
+      border-right: none;
+      width: 100%;
+      margin-top: 2rem;
+      margin-bottom: 2rem; }
+    main.biografia .derecha {
+      justify-content: space-evenly;
+      align-content: center;
+      flex-wrap: wrap;
+      width: 100%; }
+  .biografia .container {
+    margin-left: 1rem; }
+    .biografia .container .FotoPresentacion {
+      width: 55%;
+      float: left;
+      padding: 1rem;
+      margin-left: 1rem; }
+    .biografia .container p {
+      letter-spacing: 0.04rem;
+      width: 95%;
+      padding-left: 2rem; }
+      .biografia .container p.PrimerParrafo {
+        padding-top: 1rem;
+        padding-left: 4rem; }
+    .biografia .container h3 {
+      margin-bottom: 3rem;
+      margin-top: 1rem;
+      margin-left: 1rem; }
+      .biografia .container h3.tituloBio {
+        margin-top: 0rem;
+        margin-bottom: 0rem; }
+  .biografia iframe {
+    margin-left: 1rem;
+    width: 90%;
+    margin-bottom: 2rem; }
+  footer.bio {
+    width: 100%; } }
 
 /*media queries tablet*/
 @media all and (min-width: 491px) and (max-width: 800px) {
+  /*biografia*/
+  main.biografia {
+    display: block; }
+    main.biografia .izquierda {
+      border-bottom: 1px solid black;
+      border-right: none;
+      width: 100%;
+      margin-top: 2rem;
+      margin-bottom: 2rem; }
+    main.biografia .derecha {
+      justify-content: space-evenly;
+      align-content: center;
+      flex-wrap: wrap;
+      width: 100%; }
+  .biografia .container {
+    margin-left: 1rem; }
+    .biografia .container .FotoPresentacion {
+      width: 45%;
+      float: left;
+      padding: 1rem;
+      margin-left: 1rem; }
+    .biografia .container p {
+      letter-spacing: 0.04rem;
+      width: 91%;
+      padding-left: 2rem; }
+      .biografia .container p.PrimerParrafo {
+        padding-top: 1rem;
+        padding-left: 4rem; }
+    .biografia .container h3 {
+      margin-bottom: 3rem;
+      margin-top: 1rem;
+      margin-left: 1rem; }
+      .biografia .container h3.tituloBio {
+        margin-top: 0rem;
+        margin-bottom: 0rem; }
+  .biografia iframe {
+    margin-left: 1rem;
+    width: 98%;
+    margin-bottom: 2rem; }
+  footer.bio {
+    width: 100%; }
   /*index*/
   .banner {
     background-image: url(../media/bannerfinalmobile.jpg);
@@ -674,6 +797,46 @@ div.tesisCuatro {
     margin-bottom: 1.5em; }
 
 @media all and (min-width: 801px) and (max-width: 1200px) {
+  main.biografia {
+    display: flex; }
+    main.biografia .izquierda {
+      border-right: 1px solid black;
+      width: 50%;
+      margin-top: 2rem;
+      margin-bottom: 2rem; }
+    main.biografia .derecha {
+      display: flex;
+      justify-content: space-evenly;
+      align-content: center;
+      flex-wrap: wrap;
+      width: 50%; }
+  .biografia .container {
+    margin-left: 1rem;
+    display: inline; }
+    .biografia .container .FotoPresentacion {
+      width: 50%;
+      float: left;
+      padding: 1rem;
+      margin-left: 1.5rem; }
+    .biografia .container p {
+      letter-spacing: 0.04rem;
+      width: 90%;
+      margin-left: 2rem; }
+      .biografia .container p.PrimerParrafo {
+        padding-top: 2.5rem;
+        padding-left: 2.5rem; }
+    .biografia .container h3 {
+      margin-bottom: 3rem;
+      margin-top: -2.5rem;
+      margin-left: 2rem; }
+      .biografia .container h3.tituloBio {
+        margin-top: 0rem;
+        margin-bottom: 0rem; }
+  .biografia iframe {
+    margin-left: 2rem;
+    width: 90%; }
+  footer.bio {
+    width: 100%; }
   /*index*/
   .banner {
     background-image: url(../media/bannerfinal.jpg);
@@ -745,6 +908,46 @@ div.tesisCuatro {
     padding: 0.375rem 3.5rem; } }
 
 @media all and (min-width: 1201px) and (max-width: 1400px) {
+  main.biografia {
+    display: flex; }
+    main.biografia .izquierda {
+      border-right: 1px solid black;
+      width: 50%;
+      margin-top: 2rem;
+      margin-bottom: 2rem; }
+    main.biografia .derecha {
+      display: flex;
+      justify-content: space-evenly;
+      align-content: center;
+      flex-wrap: wrap;
+      width: 50%; }
+  .biografia .container {
+    margin-left: 1rem;
+    display: inline; }
+    .biografia .container .FotoPresentacion {
+      width: 50%;
+      float: left;
+      padding: 1rem;
+      margin-left: 1.5rem; }
+    .biografia .container p {
+      letter-spacing: 0.04rem;
+      width: 90%;
+      margin-left: 2rem; }
+      .biografia .container p.PrimerParrafo {
+        padding-top: 2.5rem;
+        padding-left: 2.5rem; }
+    .biografia .container h3 {
+      margin-bottom: 3rem;
+      margin-top: -2.5rem;
+      margin-left: 2rem; }
+      .biografia .container h3.tituloBio {
+        margin-top: 0rem;
+        margin-bottom: 0rem; }
+  .biografia iframe {
+    margin-left: 2rem;
+    width: 90%; }
+  footer.bio {
+    width: 100%; }
   /*index*/
   .banner {
     background-image: url(../media/bannerfinal.jpg);
