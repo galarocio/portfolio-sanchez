@@ -456,12 +456,11 @@ footer.bio {
   display: flex;
   align-items: center;
   justify-content: space-evenly; }
-
-.modal-dialog {
-  width: 500px;
-  margin: 3rem;
-  margin-top: 8rem;
-  margin-bottom: 8rem; }
+  .flexContainer .modal-dialog {
+    width: 500px;
+    margin: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem; }
 
 .listaContacto {
   border: 1px solid black;
@@ -474,10 +473,7 @@ footer.bio {
     font-size: 3rem;
     margin-bottom: 1rem; }
 
-.fondoContacto img {
-  width: 100%; }
-
-.fondoContactoDos img {
+footer img {
   width: 100%; }
 
 /*muestras*/
@@ -506,6 +502,28 @@ footer.bio {
 
 /*media queries mobile*/
 @media all and (max-width: 490px) {
+  /*contacto*/
+  .flexContainer {
+    display: block;
+    align-items: center;
+    justify-content: space-evenly; }
+    .flexContainer .modal-dialog {
+      width: 320px;
+      margin: 3rem;
+      margin-top: 5rem;
+      margin-bottom: 5rem; }
+  .listaContacto {
+    border: 1px solid black;
+    padding: 3rem; }
+    .listaContacto img {
+      width: 2rem;
+      margin-left: 2rem;
+      margin-top: 1rem; }
+    .listaContacto h3 {
+      font-size: 1.7rem;
+      margin-bottom: 1rem; }
+  footer img {
+    width: 100%; }
   /*muestras*/
   .tituloMuestras {
     margin-top: 4rem;
@@ -554,6 +572,8 @@ footer.bio {
       padding: 0.2em; }
   .seccionUno__fotos--abajo {
     justify-content: center; }
+    .seccionUno__fotos--abajo img {
+      padding: 0.2em; }
   .seccionUno__titulo {
     line-height: 40%;
     margin-right: 1rem;
@@ -569,6 +589,8 @@ footer.bio {
       padding: 0.2em; }
   .seccionDos__fotos--abajo {
     justify-content: center; }
+    .seccionDos__fotos--abajo img {
+      padding: 0.2em; }
   .seccionDos__titulo {
     line-height: 40%;
     margin-left: 1.5rem;
@@ -668,6 +690,28 @@ footer.bio {
 
 /*media queries tablet*/
 @media all and (min-width: 491px) and (max-width: 800px) {
+  /*contacto*/
+  .flexContainer {
+    display: block;
+    align-items: center;
+    justify-content: space-evenly; }
+    .flexContainer .modal-dialog {
+      width: 400px;
+      margin: 3rem;
+      margin-top: 5rem;
+      margin-bottom: 5rem; }
+  .listaContacto {
+    border: 1px solid black;
+    padding: 3rem; }
+    .listaContacto img {
+      width: 2rem;
+      margin-left: 2rem;
+      margin-top: 1rem; }
+    .listaContacto h3 {
+      font-size: 1.7rem;
+      margin-bottom: 1rem; }
+  footer img {
+    width: 100%; }
   /*muestras*/
   .tituloMuestras {
     margin-top: 4rem;
@@ -757,6 +801,8 @@ footer.bio {
       padding: 0.2em; }
   .seccionUno__fotos--abajo {
     justify-content: center; }
+    .seccionUno__fotos--abajo img {
+      padding: 0.2em; }
   .seccionUno__titulo {
     line-height: 83%;
     margin-right: 1rem;
@@ -772,6 +818,8 @@ footer.bio {
       padding: 0.2em; }
   .seccionDos__fotos--abajo {
     justify-content: center; }
+    .seccionDos__fotos--abajo img {
+      padding: 0.2em; }
   .seccionDos__titulo {
     line-height: 83%;
     margin-left: 1.5rem;
@@ -840,6 +888,29 @@ div.tesisCuatro {
     margin-bottom: 1.5em; }
 
 @media all and (min-width: 801px) and (max-width: 1200px) {
+  /*contacto*/
+  .flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .flexContainer .modal-dialog {
+      width: 320px;
+      margin: 3rem;
+      margin-top: 5rem;
+      margin-bottom: 5rem; }
+  .listaContacto {
+    border: 1px solid black;
+    padding: 3rem;
+    margin-right: 2rem; }
+    .listaContacto img {
+      width: 2rem;
+      margin-left: 2rem;
+      margin-top: 1rem; }
+    .listaContacto h3 {
+      font-size: 1.7rem;
+      margin-bottom: 1rem; }
+  footer img {
+    width: 100%; }
   /*muestras*/
   .tituloMuestras {
     margin-top: 4rem;
@@ -929,6 +1000,8 @@ div.tesisCuatro {
       padding: 0.2em; }
   .seccionUno__fotos--abajo {
     justify-content: center; }
+    .seccionUno__fotos--abajo img {
+      padding: 0.2em; }
   .seccionUno__titulo {
     line-height: 113%;
     margin-right: 1rem;
@@ -944,6 +1017,8 @@ div.tesisCuatro {
       padding: 0.2em; }
   .seccionDos__fotos--abajo {
     justify-content: center; }
+    .seccionDos__fotos--abajo img {
+      padding: 0.2em; }
   .seccionDos__titulo {
     line-height: 113%;
     margin-left: 1.5rem;
@@ -974,6 +1049,30 @@ div.tesisCuatro {
     padding: 0.375rem 3.5rem; } }
 
 @media all and (min-width: 1201px) and (max-width: 1400px) {
+  /*contacto*/
+  .flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    .flexContainer .modal-dialog {
+      width: 320px;
+      margin: 3rem;
+      margin-top: 5rem;
+      margin-bottom: 5rem; }
+  .listaContacto {
+    border: 1px solid black;
+    padding: 3rem;
+    margin-right: 2rem; }
+    .listaContacto img {
+      width: 2rem;
+      margin-left: 2rem;
+      margin-top: 1rem; }
+    .listaContacto h3 {
+      font-size: 1.7rem;
+      margin-bottom: 1rem; }
+  footer img {
+    width: 100%; }
+  /*biografia*/
   main.biografia {
     display: flex; }
     main.biografia .izquierda {
@@ -1040,6 +1139,8 @@ div.tesisCuatro {
       padding: 0.2em; }
   .seccionUno__fotos--abajo {
     justify-content: center; }
+    .seccionUno__fotos--abajo img {
+      padding: 0.2em; }
   .seccionUno__titulo {
     line-height: 154%;
     margin-right: 1rem;
@@ -1055,6 +1156,8 @@ div.tesisCuatro {
       padding: 0.2em; }
   .seccionDos__fotos--abajo {
     justify-content: center; }
+    .seccionDos__fotos--abajo img {
+      padding: 0.2em; }
   .seccionDos__titulo {
     line-height: 154%;
     margin-left: 1.5rem;
@@ -1111,6 +1214,8 @@ div.tesisCuatro {
       padding: 0.2em; }
   .seccionUno__fotos--abajo {
     justify-content: center; }
+    .seccionUno__fotos--abajo img {
+      padding: 0.2em; }
   .seccionUno__titulo {
     line-height: 154%;
     margin-right: 1rem;
@@ -1126,6 +1231,8 @@ div.tesisCuatro {
       padding: 0.2em; }
   .seccionDos__fotos--abajo {
     justify-content: center; }
+    .seccionDos__fotos--abajo img {
+      padding: 0.2em; }
   .seccionDos__titulo {
     line-height: 154%;
     margin-left: 1.5rem;

@@ -1,11 +1,12 @@
 .flexContainer {display: flex;
     align-items: center;
-    justify-content: space-evenly;}
-
+    justify-content: space-evenly;
+		
  .modal-dialog {width: 500px;
    	margin: 3rem;
 	margin-top: 8rem;
-	margin-bottom: 8rem;}
+	margin-bottom: 8rem;}}
+
 
   .listaContacto {border:1px solid black;
   					padding: 3rem;
@@ -14,5 +15,4 @@
   					margin-top: 1rem;}
 				h3 {font-size: 3rem;
 					margin-bottom: 1rem;}}
-.fondoContacto {img {width:100%;}}
-.fondoContactoDos {img {width:100%;}}
+footer {img {width:100%;}}

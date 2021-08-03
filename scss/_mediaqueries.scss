@@ -3,7 +3,29 @@
 
 @media all and (max-width:490px)
 
-{ /*muestras*/
+{ /*contacto*/
+
+    .flexContainer {display: block;
+    align-items: center;
+    justify-content: space-evenly;
+        
+ .modal-dialog {width: 320px;
+    margin: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;}}
+
+
+  .listaContacto {border:1px solid black;
+                    padding: 3rem;
+                img {width:2rem;
+                    margin-left:2rem;
+                    margin-top: 1rem;}
+                h3 {font-size: 1.7rem;
+                    margin-bottom: 1rem;}}
+footer {img {width:100%;}}
+
+
+ /*muestras*/
 
 .tituloMuestras {margin-top: 4rem;
                 margin-left: 4rem;
@@ -56,7 +78,8 @@
  				img {padding: 0.2em}
  						}
  		&__fotos--abajo {
-    		justify-content: center;}
+    		justify-content: center;
+                img {padding: 0.2em}}
     					}
 
     .seccionUno__titulo {line-height: 40%;
@@ -75,7 +98,8 @@
  				img {padding: 0.2em}
  						}
  		&__fotos--abajo {
-    		justify-content: center;}
+    		justify-content: center;
+                img {padding: 0.2em}}
     					}
 
     .seccionDos__titulo {line-height: 40%;
@@ -194,7 +218,28 @@ footer.bio {width: 100%;}
 
 @media all and (min-width: 491px) and (max-width: 800px)
 
-{ /*muestras*/
+{ /*contacto*/
+
+    .flexContainer {display: block;
+    align-items: center;
+    justify-content: space-evenly;
+        
+ .modal-dialog {width: 400px;
+    margin: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;}}
+
+
+  .listaContacto {border:1px solid black;
+                    padding: 3rem;
+                img {width:2rem;
+                    margin-left:2rem;
+                    margin-top: 1rem;}
+                h3 {font-size: 1.7rem;
+                    margin-bottom: 1rem;}}
+footer {img {width:100%;}}
+
+ /*muestras*/
 
 .tituloMuestras {margin-top: 4rem;
                 margin-left: 4rem;
@@ -286,7 +331,8 @@ footer.bio {width: 100%;}
                 img {padding: 0.2em}
                         }
         &__fotos--abajo {
-            justify-content: center;}
+            justify-content: center;
+                img {padding: 0.2em}}
                         }
 
     .seccionUno__titulo {line-height: 83%;
@@ -305,7 +351,8 @@ footer.bio {width: 100%;}
                 img {padding: 0.2em}
                         }
         &__fotos--abajo {
-            justify-content: center;}
+            justify-content: center;
+                 img {padding: 0.2em}}
                         }
 
     .seccionDos__titulo {line-height: 83%;
@@ -387,7 +434,29 @@ footer.bio {width: 100%;}
 
 @media all and (min-width: 801px) and (max-width: 1200px)
 
-{/*muestras*/
+{/*contacto*/
+
+    .flexContainer {display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+        
+ .modal-dialog {width: 320px;
+    margin: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;}}
+
+
+  .listaContacto {border:1px solid black;
+                    padding: 3rem;
+                    margin-right: 2rem;
+                img {width:2rem;
+                    margin-left:2rem;
+                    margin-top: 1rem;}
+                h3 {font-size: 1.7rem;
+                    margin-bottom: 1rem;}}
+footer {img {width:100%;}}
+
+/*muestras*/
 
 .tituloMuestras {margin-top: 4rem;
                 margin-left: 4rem;
@@ -478,7 +547,8 @@ footer.bio {width: 100%;}
                 img {padding: 0.2em}
                         }
         &__fotos--abajo {
-            justify-content: center;}
+            justify-content: center;
+                img {padding: 0.2em}}
                         }
 
     .seccionUno__titulo {line-height: 113%;
@@ -497,7 +567,8 @@ footer.bio {width: 100%;}
                 img {padding: 0.2em}
                         }
         &__fotos--abajo {
-            justify-content: center;}
+            justify-content: center;
+                img {padding: 0.2em}}
                         }
 
     .seccionDos__titulo {line-height: 113%;
@@ -540,7 +611,31 @@ footer.bio {width: 100%;}
 
 @media all and (min-width: 1201px) and (max-width: 1400px)
 
-{main.biografia {display:flex;
+{/*contacto*/
+
+    .flexContainer {display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+        
+ .modal-dialog {width: 320px;
+    margin: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;}}
+
+
+  .listaContacto {border:1px solid black;
+                    padding: 3rem;
+                    margin-right: 2rem;
+                img {width:2rem;
+                    margin-left:2rem;
+                    margin-top: 1rem;}
+                h3 {font-size: 1.7rem;
+                    margin-bottom: 1rem;}}
+footer {img {width:100%;}}
+
+
+/*biografia*/
+    main.biografia {display:flex;
                     .izquierda {border-right: 1px solid black;
                                 width: 50%;
                                 margin-top: 2rem;
@@ -607,7 +702,8 @@ footer.bio {width: 100%;}
                 img {padding: 0.2em}
                         }
         &__fotos--abajo {
-            justify-content: center;}
+            justify-content: center;
+                img {padding: 0.2em}}
                         }
 
     .seccionUno__titulo {line-height: 154%;
@@ -626,7 +722,8 @@ footer.bio {width: 100%;}
                 img {padding: 0.2em}
                         }
         &__fotos--abajo {
-            justify-content: center;}
+            justify-content: center;
+                img {padding: 0.2em}}
                         }
 
     .seccionDos__titulo {line-height: 154%;
@@ -697,7 +794,8 @@ footer.bio {width: 100%;}
                 img {padding: 0.2em}
                         }
         &__fotos--abajo {
-            justify-content: center;}
+            justify-content: center;
+                img {padding: 0.2em}}
                         }
 
     .seccionUno__titulo {line-height: 154%;
@@ -716,7 +814,8 @@ footer.bio {width: 100%;}
                 img {padding: 0.2em}
                         }
         &__fotos--abajo {
-            justify-content: center;}
+            justify-content: center;
+                img {padding: 0.2em}}
                         }
 
     .seccionDos__titulo {line-height: 154%;
