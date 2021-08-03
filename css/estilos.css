@@ -452,59 +452,35 @@ main.biografia {
 footer.bio {
   width: 100%; }
 
-#gridContacto {
-  display: grid;
-  grid-template-areas: "nav nav" "contacto logos" "foot foot";
-  grid-template-rows: auto auto 60px;
-  grid-template-columns: auto auto; }
-
-#formulario {
-  grid-area: contacto;
-  border-right: 1px solid black;
-  margin-bottom: 2em;
-  margin-top: 2em; }
-
-#formulario h3 {
-  font-size: 70px;
-  margin-top: 1em;
+.flexContainer {
   display: flex;
-  margin-left: 3rem; }
+  align-items: center;
+  justify-content: space-evenly; }
 
-#formulario div.textArea {
-  display: flex;
-  flex-direction: column; }
+.modal-dialog {
+  width: 500px;
+  margin: 3rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem; }
 
-.form {
-  display: flex;
-  margin-left: 6rem;
-  margin-top: 2.5em;
-  margin-bottom: 2em; }
+.listaContacto {
+  border: 1px solid black;
+  padding: 3rem; }
+  .listaContacto img {
+    width: 3rem;
+    margin-left: 5rem;
+    margin-top: 1rem; }
+  .listaContacto h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem; }
 
-.form div {
-  padding: 0.8em; }
+.fondoContacto img {
+  width: 100%; }
 
-div.mailYRedes {
-  grid-area: logos; }
+.fondoContactoDos img {
+  width: 100%; }
 
-div.mailYRedes h4 {
-  margin-top: 1.8em;
-  font-size: 60px;
-  display: flex;
-  justify-content: center; }
-
-div.logosContacto img {
-  width: 60px;
-  padding: 2em;
-  margin-top: 4em; }
-
-div.logosContacto {
-  display: flex;
-  justify-content: center; }
-
-#footerContacto {
-  grid-area: foot;
-  background-color: #26292C; }
-
+/*muestras*/
 .tituloMuestras {
   margin-top: 4rem;
   margin-left: 4rem;
@@ -518,7 +494,8 @@ div.logosContacto {
   .muestras .card {
     background-color: white;
     margin-top: 4rem;
-    margin-bottom: 28rem; }
+    margin-bottom: 28rem;
+    width: 28rem; }
     .muestras .card .direccion {
       text-transform: none; }
     .muestras .card .card-title {
@@ -529,6 +506,28 @@ div.logosContacto {
 
 /*media queries mobile*/
 @media all and (max-width: 490px) {
+  /*muestras*/
+  .tituloMuestras {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    font-size: 33px;
+    border-bottom: 0.5px solid black;
+    width: 93%; }
+  .muestras {
+    display: block; }
+    .muestras .card {
+      background-color: white;
+      margin-top: 4rem;
+      margin-bottom: 28rem;
+      margin-left: 1.5rem;
+      width: 23rem; }
+      .muestras .card .direccion {
+        text-transform: none; }
+      .muestras .card .card-title {
+        color: #26292C; }
+      .muestras .card a {
+        color: #26292C;
+        border-color: black; }
   /*index*/
   .banner {
     background-image: url(../media/bannerfinalmobile.jpg);
@@ -669,6 +668,28 @@ div.logosContacto {
 
 /*media queries tablet*/
 @media all and (min-width: 491px) and (max-width: 800px) {
+  /*muestras*/
+  .tituloMuestras {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    font-size: 33px;
+    border-bottom: 0.5px solid black;
+    width: 93%; }
+  .muestras {
+    display: block; }
+    .muestras .card {
+      background-color: white;
+      margin-top: 4rem;
+      margin-bottom: 28rem;
+      margin-left: 1.5rem;
+      width: 23rem; }
+      .muestras .card .direccion {
+        text-transform: none; }
+      .muestras .card .card-title {
+        color: #26292C; }
+      .muestras .card a {
+        color: #26292C;
+        border-color: black; }
   /*biografia*/
   main.biografia {
     display: block; }
@@ -819,6 +840,29 @@ div.tesisCuatro {
     margin-bottom: 1.5em; }
 
 @media all and (min-width: 801px) and (max-width: 1200px) {
+  /*muestras*/
+  .tituloMuestras {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    font-size: 33px;
+    border-bottom: 0.5px solid black;
+    width: 93%; }
+  .muestras {
+    display: flex; }
+    .muestras .card {
+      background-color: white;
+      margin-top: 4rem;
+      margin-bottom: 35rem;
+      margin-left: 1.5rem;
+      width: 20rem; }
+      .muestras .card .direccion {
+        text-transform: none; }
+      .muestras .card .card-title {
+        color: #26292C; }
+      .muestras .card a {
+        color: #26292C;
+        border-color: black; }
+  /*biografia*/
   main.biografia {
     display: flex; }
     main.biografia .izquierda {

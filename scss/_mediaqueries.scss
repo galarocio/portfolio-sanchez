@@ -3,7 +3,29 @@
 
 @media all and (max-width:490px)
 
-{ /*index*/
+{ /*muestras*/
+
+.tituloMuestras {margin-top: 4rem;
+                margin-left: 4rem;
+                font-size: 33px;
+                border-bottom: 0.5px solid black;
+                width: 93%;}
+
+.muestras {display: block;
+
+            .card {background-color: white;
+                    margin-top: 4rem;
+                    margin-bottom: 28rem;
+                    margin-left: 1.5rem;
+                    width: 23rem;
+                    .direccion {text-transform: none;}
+                    .card-title {color: #26292C;}
+                    a {color: #26292C;
+                        border-color: black;}
+                }
+            }
+
+/*index*/
 	.banner {
 			background-image: url(../media/bannerfinalmobile.jpg);
 			height: 13em;
@@ -172,7 +194,29 @@ footer.bio {width: 100%;}
 
 @media all and (min-width: 491px) and (max-width: 800px)
 
-{ 
+{ /*muestras*/
+
+.tituloMuestras {margin-top: 4rem;
+                margin-left: 4rem;
+                font-size: 33px;
+                border-bottom: 0.5px solid black;
+                width: 93%;}
+
+.muestras {display: block;
+
+            .card {background-color: white;
+                    margin-top: 4rem;
+                    margin-bottom: 28rem;
+                    margin-left: 1.5rem;
+                    width: 23rem;
+                    .direccion {text-transform: none;}
+                    .card-title {color: #26292C;}
+                    a {color: #26292C;
+                        border-color: black;}
+                }
+            }
+
+
 /*biografia*/
 
 main.biografia {display: block;
@@ -343,7 +387,31 @@ footer.bio {width: 100%;}
 
 @media all and (min-width: 801px) and (max-width: 1200px)
 
-{main.biografia {display:flex;
+{/*muestras*/
+
+.tituloMuestras {margin-top: 4rem;
+                margin-left: 4rem;
+                font-size: 33px;
+                border-bottom: 0.5px solid black;
+                width: 93%;}
+
+.muestras {display: flex;
+
+            .card {background-color: white;
+                    margin-top: 4rem;
+                    margin-bottom: 35rem;
+                    margin-left: 1.5rem;
+                    width: 20rem;
+                    .direccion {text-transform: none;}
+                    .card-title {color: #26292C;}
+                    a {color: #26292C;
+                        border-color: black;}
+                }
+            }
+
+/*biografia*/
+
+    main.biografia {display:flex;
                     .izquierda {border-right: 1px solid black;
                                 width: 50%;
                                 margin-top: 2rem;

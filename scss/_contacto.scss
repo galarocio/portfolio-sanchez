@@ -1,45 +1,18 @@
+.flexContainer {display: flex;
+    align-items: center;
+    justify-content: space-evenly;}
 
-#gridContacto {display: grid;
-	grid-template-areas: 
-	"nav nav"
-	"contacto logos"
-	"foot foot";
-    grid-template-rows:auto auto 60px;
-	grid-template-columns: auto auto;}
+ .modal-dialog {width: 500px;
+   	margin: 3rem;
+	margin-top: 8rem;
+	margin-bottom: 8rem;}
 
-#formulario {grid-area: contacto;
-	border-right: 1px solid black;
-	margin-bottom: 2em;
-	margin-top: 2em}
-
-#formulario h3 {  font-size: 70px;
-    margin-top: 1em;
-    display: flex;
-    margin-left: 3rem;}
-
-#formulario div.textArea {display: flex;
-	flex-direction:column;}
-
-.form {display: flex;
-	margin-left: 6rem;
-	margin-top: 2.5em;
-	margin-bottom: 2em;}
-
-.form div {padding: 0.8em}
-
-div.mailYRedes {grid-area: logos;}
-
-div.mailYRedes h4 {margin-top: 1.8em;
-	font-size: 60px;
-	display: flex;
-	justify-content: center;}
-
-div.logosContacto img {width: 60px;
-    padding: 2em;
-    margin-top: 4em;}
-
-div.logosContacto {display:flex;
-	justify-content: center;}
-
-#footerContacto {grid-area: foot;
-	background-color: #26292C;}
+  .listaContacto {border:1px solid black;
+  					padding: 3rem;
+  				img {width:3rem;
+  					margin-left:5rem;
+  					margin-top: 1rem;}
+				h3 {font-size: 3rem;
+					margin-bottom: 1rem;}}
+.fondoContacto {img {width:100%;}}
+.fondoContactoDos {img {width:100%;}}
