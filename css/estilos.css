@@ -374,7 +374,10 @@ div.proto img {
   justify-content: center; }
   #tatuajesHtml div img {
     max-width: 25%;
-    padding-left: 1rem; }
+    padding-left: 1rem;
+    transition: all 170ms; }
+    #tatuajesHtml div img:hover {
+      opacity: 0.7; }
 
 div.arriba {
   margin-top: 5em; }
@@ -395,7 +398,10 @@ div.abajo {
 
 #indumentariaHtml div img {
   max-width: 25%;
-  padding-left: 1rem; }
+  padding-left: 1rem;
+  transition: all 170ms; }
+  #indumentariaHtml div img:hover {
+    opacity: 0.7; }
 
 div.tesisUno {
   margin-top: 5em; }
@@ -619,9 +625,9 @@ footer img {
     font-size: 25px; }
   .btn:hover {
     padding: 0.375rem 3.5rem; }
-  /*indumentaria*/
+  /*ilustracion*/
   #ilustracionHtml div img {
-    max-width: 33%;
+    max-width: 95% !important;
     padding: 0.4rem; }
   div.gatos {
     margin-top: 1.5em; }
@@ -629,7 +635,7 @@ footer img {
     margin-bottom: 1.5em; }
   /*tatuajes*/
   #tatuajesHtml div img {
-    max-width: 33%;
+    max-width: 95% !important;
     padding: 0.4rem; }
   div.arriba {
     margin-top: 1.5em; }
@@ -637,7 +643,7 @@ footer img {
     margin-bottom: 1.5em; }
   /*indumetaria*/
   #indumentariaHtml div img {
-    max-width: 33%;
+    max-width: 95% !important;
     padding: 0.4rem; }
   div.tesisUno {
     margin-top: 1.5em; }
@@ -852,7 +858,7 @@ footer img {
 
 /*indumentaria*/
 #ilustracionHtml div img {
-  max-width: 33%;
+  max-width: 66% !important;
   padding: 0.4rem; }
 
 div.gatos {
@@ -863,7 +869,7 @@ div.proto img {
 
 /*tatuajes*/
 #tatuajesHtml div img {
-  max-width: 33%;
+  max-width: 66% !important;
   padding: 0.4rem; }
 
 div.arriba {
@@ -874,7 +880,7 @@ div.abajo {
 
 /*indumetaria*/
 #indumentariaHtml div img {
-  max-width: 33%;
+  max-width: 66% !important;
   padding: 0.4rem; }
 
 div.tesisUno {
