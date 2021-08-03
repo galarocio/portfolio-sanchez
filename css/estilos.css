@@ -60,7 +60,8 @@ html {
   html body {
     background: #F5F5F5;
     font-family: 'Roboto Condensed', sans-serif;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    overflow-x: hidden; }
     html body #grid {
       display: grid;
       height: 100%;

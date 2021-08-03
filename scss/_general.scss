@@ -10,7 +10,8 @@ html {scroll-behavior: smooth;
 
 		body {background:#F5F5F5;
 			font-family:'Roboto Condensed', sans-serif;
-			text-transform: uppercase;	
+			text-transform: uppercase;
+			overflow-x: hidden;	
 
 		#grid {display: grid;
 			height: 100%;
