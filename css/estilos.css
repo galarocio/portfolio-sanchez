@@ -632,7 +632,7 @@ footer img {
   div.gatos {
     margin-top: 1.5em; }
   div.proto img {
-    margin-bottom: 1.5em; }
+    margin-bottom: 0em; }
   /*tatuajes*/
   #tatuajesHtml div img {
     max-width: 95% !important;
@@ -640,7 +640,7 @@ footer img {
   div.arriba {
     margin-top: 1.5em; }
   div.abajo {
-    margin-bottom: 1.5em; }
+    margin-bottom: 0em; }
   /*indumetaria*/
   #indumentariaHtml div img {
     max-width: 95% !important;
@@ -652,7 +652,7 @@ footer img {
   div.tesisCuatro {
     margin-top: 0.1em; }
     div.tesisCuatro img {
-      margin-bottom: 1.5em; }
+      margin-bottom: 0em; }
   /*biografia*/
   main.biografia {
     display: block; }
@@ -865,7 +865,7 @@ div.gatos {
   margin-top: 1.5em; }
 
 div.proto img {
-  margin-bottom: 1.5em; }
+  margin-bottom: 0em; }
 
 /*tatuajes*/
 #tatuajesHtml div img {
@@ -876,7 +876,7 @@ div.arriba {
   margin-top: 1.5em; }
 
 div.abajo {
-  margin-bottom: 1.5em; }
+  margin-bottom: 0em; }
 
 /*indumetaria*/
 #indumentariaHtml div img {
@@ -892,7 +892,7 @@ div.tesisDos {
 div.tesisCuatro {
   margin-top: 0.1em; }
   div.tesisCuatro img {
-    margin-bottom: 1.5em; }
+    margin-bottom: 0em; }
 
 @media all and (min-width: 801px) and (max-width: 1200px) {
   /*contacto*/
