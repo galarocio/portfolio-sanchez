@@ -507,8 +507,58 @@ footer img {
       color: #26292C;
       border-color: black; }
 
+.mainClases .card-img-top {
+  width: 40%;
+  margin-left: 3rem; }
+
+.mainClases .card {
+  background-color: #F5F5F5;
+  height: 80vh; }
+  .mainClases .card .card-title {
+    color: #212529;
+    margin-left: 3rem;
+    margin-top: 2rem; }
+  .mainClases .card .card-text {
+    margin-left: 3rem;
+    text-transform: none; }
+
+.mainClases .subtitulo {
+  font-size: 1.4rem;
+  text-decoration: underline; }
+
+.mainClases .ultimoParrafo {
+  border-bottom: 1px solid gray;
+  width: 72%;
+  padding-bottom: 1.5rem; }
+
+.mainClases .margenSeparador {
+  padding-top: 2rem; }
+
 /*media queries mobile*/
 @media all and (max-width: 490px) {
+  /*clases*/
+  .mainClases .card-img-top {
+    width: 73%;
+    margin-left: 3rem; }
+  .mainClases .card {
+    background-color: #F5F5F5;
+    height: 109vh; }
+    .mainClases .card .card-title {
+      color: #212529;
+      margin-left: 3rem;
+      margin-top: 2rem; }
+    .mainClases .card .card-text {
+      margin-left: 3rem;
+      text-transform: none; }
+  .mainClases .subtitulo {
+    font-size: 1.4rem;
+    text-decoration: underline; }
+  .mainClases .ultimoParrafo {
+    border-bottom: 1px solid gray;
+    width: 72%;
+    padding-bottom: 1.5rem; }
+  .mainClases .margenSeparador {
+    padding-top: 2rem; }
   /*contacto*/
   .flexContainer {
     display: block;
@@ -697,6 +747,29 @@ footer img {
 
 /*media queries tablet*/
 @media all and (min-width: 491px) and (max-width: 800px) {
+  /*clases*/
+  .mainClases .card-img-top {
+    width: 73%;
+    margin-left: 3rem; }
+  .mainClases .card {
+    background-color: #F5F5F5;
+    height: 109vh; }
+    .mainClases .card .card-title {
+      color: #212529;
+      margin-left: 3rem;
+      margin-top: 2rem; }
+    .mainClases .card .card-text {
+      margin-left: 3rem;
+      text-transform: none; }
+  .mainClases .subtitulo {
+    font-size: 1.4rem;
+    text-decoration: underline; }
+  .mainClases .ultimoParrafo {
+    border-bottom: 1px solid gray;
+    width: 72%;
+    padding-bottom: 1.5rem; }
+  .mainClases .margenSeparador {
+    padding-top: 2rem; }
   /*contacto*/
   .flexContainer {
     display: block;
@@ -895,6 +968,29 @@ div.tesisCuatro {
     margin-bottom: 0em; }
 
 @media all and (min-width: 801px) and (max-width: 1200px) {
+  /*clases*/
+  .mainClases .card-img-top {
+    width: 73%;
+    margin-left: 3rem; }
+  .mainClases .card {
+    background-color: #F5F5F5;
+    height: 109vh; }
+    .mainClases .card .card-title {
+      color: #212529;
+      margin-left: 3rem;
+      margin-top: 2rem; }
+    .mainClases .card .card-text {
+      margin-left: 3rem;
+      text-transform: none; }
+  .mainClases .subtitulo {
+    font-size: 1.4rem;
+    text-decoration: underline; }
+  .mainClases .ultimoParrafo {
+    border-bottom: 1px solid gray;
+    width: 72%;
+    padding-bottom: 1.5rem; }
+  .mainClases .margenSeparador {
+    padding-top: 2rem; }
   /*contacto*/
   .flexContainer {
     display: flex;
@@ -1056,6 +1152,29 @@ div.tesisCuatro {
     padding: 0.375rem 3.5rem; } }
 
 @media all and (min-width: 1201px) and (max-width: 1400px) {
+  /*clases*/
+  .mainClases .card-img-top {
+    width: 50%;
+    margin-left: 3rem; }
+  .mainClases .card {
+    background-color: #F5F5F5;
+    height: 100vh; }
+    .mainClases .card .card-title {
+      color: #212529;
+      margin-left: 3rem;
+      margin-top: 2rem; }
+    .mainClases .card .card-text {
+      margin-left: 3rem;
+      text-transform: none; }
+  .mainClases .subtitulo {
+    font-size: 1.4rem;
+    text-decoration: underline; }
+  .mainClases .ultimoParrafo {
+    border-bottom: 1px solid gray;
+    width: 72%;
+    padding-bottom: 1.5rem; }
+  .mainClases .margenSeparador {
+    padding-top: 2rem; }
   /*contacto*/
   .flexContainer {
     display: flex;
