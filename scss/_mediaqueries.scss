@@ -156,7 +156,7 @@ footer {img {width:100%;}}
 
 /*ilustracion*/
 
-  	#ilustracionHtml {div {img {max-width: 95%!important; 
+  	#ilustracionHtml {div {img {max-width: 95%; 
   							padding: 0.4rem;}
   							}
   							}
@@ -168,7 +168,7 @@ footer {img {width:100%;}}
 
  /*tatuajes*/
 
-	 #tatuajesHtml {div {img {max-width: 95%!important;
+	 #tatuajesHtml {div {img {max-width: 95%;
   							padding: 0.4rem;}
   							}
   							}
@@ -181,7 +181,7 @@ footer {img {width:100%;}}
 
 /*indumetaria*/
 
-	 #indumentariaHtml {div {img {max-width: 95%!important;
+	 #indumentariaHtml {div {img {max-width: 95%;
   							padding: 0.4rem;}
   							}
   							}
@@ -428,7 +428,7 @@ footer.bio {width: 100%;}
 
 /*indumentaria*/
 
-    #ilustracionHtml {div {img {max-width: 66%!important;
+    #ilustracionHtml {div {img {max-width: 66%;
                             padding: 0.4rem;}
                             }
                             }
@@ -440,7 +440,7 @@ footer.bio {width: 100%;}
 
  /*tatuajes*/
 
-     #tatuajesHtml {div {img {max-width: 66%!important;
+     #tatuajesHtml {div {img {max-width: 66%;
                             padding: 0.4rem;}
                             }
                             }
@@ -453,7 +453,7 @@ footer.bio {width: 100%;}
 
 /*indumetaria*/
 
-     #indumentariaHtml {div {img {max-width: 66%!important;
+     #indumentariaHtml {div {img {max-width: 66%;
                             padding: 0.4rem;}
                             }
                             }
@@ -921,7 +921,75 @@ footer.bio {width: 100%;}
 
             }
     .btn:hover {padding: 0.375rem 3.5rem;}
+    /*ilustracion html*/
+
+
+#ilustracionHtml div {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;}
+
+#ilustracionHtml div img {max-width: 25%;
+    padding-left:1rem;
+    transition: all 170ms;
+
+        &:hover {opacity: 0.7}
+    }
+
+div.gatos {margin-top: 5em;}
+
+div.margen {margin-top: 1.5em;}
+
+div.proto {margin-top: 1.5em;}
+
+div.proto img {margin-bottom: 5em;}
+
+
+ /*tatuajes html*/
+
+
+#tatuajesHtml div {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+                    img {max-width: 25%;
+                    padding-left:1rem;}
+                    }
+
+div {&.arriba {margin-top: 5em;}
+
+    &.medio {margin-top: 1.5em;}
+
+    &.abajo {margin-top: 1.5em;
+            margin-bottom: 5em;}
+    }
+
+    
+/*indumentaria html*/
+
+
+#indumentariaHtml div {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;}
+
+#indumentariaHtml div img {max-width: 25%;
+    padding-left:1rem;}
+
+div.tesisUno {margin-top: 5em;
 }
+
+div.tesisDos {margin-top: 1em}
+
+div.tesisTres {margin-top: 3em;}
+
+div.tesisCuatro {margin-top:1em;}
+
+div.tesisCuatro img {margin-bottom:5em;}
+
+}
+
 
 
 @media all and (min-width: 1401px)

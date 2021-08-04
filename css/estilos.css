@@ -677,7 +677,7 @@ footer img {
     padding: 0.375rem 3.5rem; }
   /*ilustracion*/
   #ilustracionHtml div img {
-    max-width: 95% !important;
+    max-width: 95%;
     padding: 0.4rem; }
   div.gatos {
     margin-top: 1.5em; }
@@ -685,7 +685,7 @@ footer img {
     margin-bottom: 0em; }
   /*tatuajes*/
   #tatuajesHtml div img {
-    max-width: 95% !important;
+    max-width: 95%;
     padding: 0.4rem; }
   div.arriba {
     margin-top: 1.5em; }
@@ -693,7 +693,7 @@ footer img {
     margin-bottom: 0em; }
   /*indumetaria*/
   #indumentariaHtml div img {
-    max-width: 95% !important;
+    max-width: 95%;
     padding: 0.4rem; }
   div.tesisUno {
     margin-top: 1.5em; }
@@ -931,7 +931,7 @@ footer img {
 
 /*indumentaria*/
 #ilustracionHtml div img {
-  max-width: 66% !important;
+  max-width: 66%;
   padding: 0.4rem; }
 
 div.gatos {
@@ -942,7 +942,7 @@ div.proto img {
 
 /*tatuajes*/
 #tatuajesHtml div img {
-  max-width: 66% !important;
+  max-width: 66%;
   padding: 0.4rem; }
 
 div.arriba {
@@ -953,7 +953,7 @@ div.abajo {
 
 /*indumetaria*/
 #indumentariaHtml div img {
-  max-width: 66% !important;
+  max-width: 66%;
   padding: 0.4rem; }
 
 div.tesisUno {
@@ -1386,7 +1386,62 @@ div.tesisCuatro {
     font-size: 45px;
     margin-left: 1rem; }
   .btn:hover {
-    padding: 0.375rem 3.5rem; } }
+    padding: 0.375rem 3.5rem; }
+  /*ilustracion html*/
+  #ilustracionHtml div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  #ilustracionHtml div img {
+    max-width: 25%;
+    padding-left: 1rem;
+    transition: all 170ms; }
+    #ilustracionHtml div img:hover {
+      opacity: 0.7; }
+  div.gatos {
+    margin-top: 5em; }
+  div.margen {
+    margin-top: 1.5em; }
+  div.proto {
+    margin-top: 1.5em; }
+  div.proto img {
+    margin-bottom: 5em; }
+  /*tatuajes html*/
+  #tatuajesHtml div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    #tatuajesHtml div img {
+      max-width: 25%;
+      padding-left: 1rem; }
+  div.arriba {
+    margin-top: 5em; }
+  div.medio {
+    margin-top: 1.5em; }
+  div.abajo {
+    margin-top: 1.5em;
+    margin-bottom: 5em; }
+  /*indumentaria html*/
+  #indumentariaHtml div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  #indumentariaHtml div img {
+    max-width: 25%;
+    padding-left: 1rem; }
+  div.tesisUno {
+    margin-top: 5em; }
+  div.tesisDos {
+    margin-top: 1em; }
+  div.tesisTres {
+    margin-top: 3em; }
+  div.tesisCuatro {
+    margin-top: 1em; }
+  div.tesisCuatro img {
+    margin-bottom: 5em; } }
 
 @media all and (min-width: 1401px) {
   /*ilustracion html*/
