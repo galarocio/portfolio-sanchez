@@ -513,7 +513,7 @@ footer img {
 
 .mainClases .card {
   background-color: #F5F5F5;
-  height: 80vh; }
+  height: auto; }
   .mainClases .card .card-title {
     color: #212529;
     margin-left: 3rem;
@@ -534,6 +534,9 @@ footer img {
 .mainClases .margenSeparador {
   padding-top: 2rem; }
 
+.mainClases .margenFinal {
+  margin-bottom: 4rem; }
+
 /*media queries mobile*/
 @media all and (max-width: 490px) {
   /*clases*/
@@ -542,7 +545,7 @@ footer img {
     margin-left: 3rem; }
   .mainClases .card {
     background-color: #F5F5F5;
-    height: 144vh; }
+    height: auto; }
     .mainClases .card .card-title {
       color: #212529;
       margin-left: 3rem;
@@ -753,7 +756,7 @@ footer img {
     margin-left: 3rem; }
   .mainClases .card {
     background-color: #F5F5F5;
-    height: 109vh; }
+    height: auto; }
     .mainClases .card .card-title {
       color: #212529;
       margin-left: 3rem;
@@ -974,7 +977,7 @@ div.tesisCuatro {
     margin-left: 3rem; }
   .mainClases .card {
     background-color: #F5F5F5;
-    height: 109vh; }
+    height: auto; }
     .mainClases .card .card-title {
       color: #212529;
       margin-left: 3rem;
@@ -1158,7 +1161,7 @@ div.tesisCuatro {
     margin-left: 3rem; }
   .mainClases .card {
     background-color: #F5F5F5;
-    height: 100vh; }
+    height: auto; }
     .mainClases .card .card-title {
       color: #212529;
       margin-left: 3rem;
